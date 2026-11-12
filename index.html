@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karya Portofolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #f8fafc;
+      color: #4f2a2a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: #2b0a0a;
+      color: #ffffff;
+      padding: 16px 24px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      position: sticky;
+      bottom: 0;
+      z-index: 100;
+      background-color: #301d1d;
+      color: #94a3b8;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 0.85rem;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    main {
+      flex: 1;
+      padding: 24px 16px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+	  align-items: center;
+      gap: 20px;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 0 1 260px;
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.03);
+      border-color: #240f0f;
+      box-shadow: 0 10px 24px rgba(145, 71, 71, 0.20), 0 0 14px rgba(102, 65, 65, 0.32);
+    }
+
+    .card img {
+      width: auto;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card p {
+      padding: 12px 14px;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Karya Portofolio Vicky</h1>
+  </header>
+
+  <main>
+    <div class="flex-container">
+      <div class="card">
+        <img src="Foto/Astrojpeg.jpeg" alt="karya pada gambaran ini merupakan ilustrasi digital menggambarkan sebuah mahluk
+			yang tidak biasa layaknya sebuah mahluk fantasi berbulu lembut, bewarna ungu, dan melingkar tenang di tengah
+			kegelapan, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran karya ini 6:15 jam">
+        <p>karya pada gambaran ini merupakan ilustrasi digital menggambarkan sebuah mahluk
+			yang tidak biasa layaknya sebuah mahluk fantasi berbulu lembut, bewarna ungu, dan melingkar tenang di tengah
+			kegelapan, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran karya ini 6:15 jam</p>
+      </div>
+
+      <div class="card">
+        <img src="Foto/Jellyfish.jpeg" alt="karya berupa sebuah gambaran ilustrasi digital ubur ubur, hanya pengambaran
+			sebagai karya gambaran saja, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 3:29 jam">
+        <p>karya berupa sebuah gambaran ilustrasi digital ubur ubur, hanya pengambaran
+			sebagai karya gambaran saja, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 3:29 jam</p>
+      </div>
+
+		<div class="card">
+        <img src="Karya seni/Milex00.jpeg.jpeg" alt="Gambaran berupa ilustrasi digital yang menggambarkan mahluk seram berupa
+			kemiripan dengan hewan kucing yang hanya berupa karya Dark Art, karya ini dibuat di aplikasi digital ibispaintx
+			dan hasil gambaran ini 57:08 jam">
+        <p>Gambaran berupa ilustrasi digital yang menggambarkan mahluk seram berupa
+			kemiripan dengan hewan kucing yang hanya berupa karya Dark Art, karya ini dibuat di aplikasi digital ibispaintx
+			dan hasil gambaran ini 57:08 jam</p>
+      </div>
+
+		<div class="card">
+        <img src="Karya seni/Pemandangan.jpeg.jpeg" alt="Karya gambar ilustrasi digital dengan pegunungan dan perumputan di malam
+			yang sunyi hanya ketenangan, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 4:03 jam">
+        <p>karya gambar ilustrasi digital dengan pegunungan dan perumputan di malam
+			yang sunyi hanya ketenangan, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 4:03 jam</p>
+      </div>
+
+		<div class="card">
+        <img src="Karya seni/Ikan.jpeg.jpeg" alt="karya ilustrasi digital menggambarkan satu ekor ikan yang hanya ditempat perairan 
+			laut, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 2:12 jam">
+        <p>karya ilustrasi digital menggambarkan satu ekor ikan yang hanya ditempat perairan 
+			laut, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 2:12 jam</p>
+      </div>
+
+		<div class="card">
+        <img src="Karya seni/Unknown entitas.jpeg.jpeg" alt="Sebuah karya gambaran ilustrasi digital yang hanya menunjukkan sebuah
+			mahluk entitas yang tidak diketahui menatap dengan kekosongan, karya ini dibuat di aplikasi digital ibispaintx
+			dan hasil gambaran ini 0:49 jam">
+        <p>Sebuah karya gambaran ilustrasi digital yang hanya menunjukkan sebuah
+			mahluk entitas yang tidak diketahui menatap dengan kekosongan, karya ini dibuat di aplikasi digital ibispaintx
+			dan hasil gambaran ini 0:49 jam</p>
+      </div>
+
+      <div class="card">
+        <img src="Foto/Monster laut.jpeg" alt="karya gambaran ilustrasi digital dengan gambaran sebuah sesosok monster laut
+			yang sedang berburu mangsa, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 0:41 jam">
+        <p>karya gambaran ilustrasi digital dengan gambaran sebuah sesosok monster laut
+			yang sedang berburu mangsa, karya ini dibuat di aplikasi digital ibispaintx dan hasil gambaran ini 0:41 jam</p>
+      </div>
+     </div>
+   </main>
+
+  <footer>
+   <p>&copy; Vicky A.L</p>
+  </footer>
+
+</body>
+</html>
 
